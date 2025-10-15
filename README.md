@@ -27,8 +27,7 @@
 * **OS / マシン**: Surface Laptop Go 2（Windows 11）で動作確認
 * **Python**: 3.x 系
 
-> exe版はwindowsのみ対応。
-> マニュアル版は他環境でも動くはずですが未検証です。PR/Issue 歓迎。
+> 他環境でも動くはずですが未検証です。PR/Issue 歓迎。
 
 ---
 
