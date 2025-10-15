@@ -27,7 +27,8 @@
 * **OS / マシン**: Surface Laptop Go 2（Windows 11）で動作確認
 * **Python**: 3.x 系
 
-> ※他環境でも動くはずですが未検証です。PR/Issue 歓迎。
+> exe版はwindowsのみ対応。
+> マニュアル版は他環境でも動くはずですが未検証です。PR/Issue 歓迎。
 
 ---
 
@@ -40,7 +41,19 @@
 
 ---
 
-## セットアップ
+## インストール方法
+
+### おすすめ！（exe版）
+1. Releaseからnovelendless.zipをダウンロードして解凍
+2. novelendless.exeが出てくる
+
+> exeなのでwindows以外では動きません。あしからず。
+
+### マニュアル
+
+こちらはwindows以外でも動くと思います。
+
+0. pythonをインストール（リンクはコチラ→https://www.python.org/downloads/）
 
 1. リポジトリを取得
 
@@ -67,7 +80,7 @@ pip install unidic-lite
 
 ### 0. `novels/` フォルダを作成
 
-リポジトリ直下に `novels` ディレクトリを用意します。
+novelendlessがあるフォルダ内に `novels` ディレクトリを用意します。
 
 ### 1. コーパスを入れる
 
@@ -112,6 +125,7 @@ python3 novelendless.py
 * **乱数シード**（再現性が欲しいとき）
 
 > 具体的な変数名は `novelendless.py` を参照してください。
+> exe版はカスタマイズできません。
 
 ---
 
@@ -152,7 +166,7 @@ python3 novelendless.py
 ## 免責事項
 
 このプログラムは**娯楽目的**で作られています。
-**品質・整合性など一ミリも考えていません。**
+**品質・整合性・情報の正確性は一ミリも考えていません。**
 何が起きても笑って許せる方向けです。
 
 ---
