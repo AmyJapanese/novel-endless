@@ -43,16 +43,6 @@
 
 ## インストール方法
 
-### おすすめ！（exe版）
-1. Releaseからnovelendless.zipをダウンロードして解凍
-2. novelendless.exeが出てくる
-
-> exeなのでwindows以外では動きません。あしからず。
-
-### マニュアル
-
-こちらはwindows以外でも動くと思います。
-
 0. pythonをインストール（リンクはコチラ→https://www.python.org/downloads/）
 
 1. リポジトリを取得
@@ -125,7 +115,6 @@ python3 novelendless.py
 * **乱数シード**（再現性が欲しいとき）
 
 > 具体的な変数名は `novelendless.py` を参照してください。
-> exe版はカスタマイズできません。
 
 ---
 
