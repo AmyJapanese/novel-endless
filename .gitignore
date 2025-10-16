@@ -1,3 +1,6 @@
+# novelsフォルダはignoreすることをおすすめします。なぜなら、ここに小説のテキストを入れると、Gitの管理が大変になるからです。
+# あと、著作権の問題が起きる可能性もあります。（特に他者のデータを入れる場合）
 novels
-venv
-build
+
+# VSCodeの一時ファイルをignore（こっちは消しても大丈夫）
+tempCodeRunnerFile.py

@@ -109,17 +109,7 @@ if __name__ == "__main__":
     model = build_model(corpus, n=N)
     ask_mode = input("エンドレスモードで出力しますか？ (y/n): ").strip().lower() == 'y'
     if ask_mode:
-        ask_seed = input("シード値を指定しますか？ (y/n): ").strip().lower() == 'y'
-        if ask_seed:
-            seed_input = input("シード値を入力してください: ").strip()
-            try:
-                seed_value = int(seed_input)
-            except ValueError:
-                seed_value = sum(ord(c) for c in seed_input)
-            print(f"→ シード値（変換後）: {seed_value}")
-            endless_stream(model, n=N, seed=seed_value)
-        else:
-            endless_stream(model, n=N)
+        endless_stream(model, n=N, delay=0.3)
     else:
         while True:
             ask_for = input("何回出力しますか？ (数字を入力): ").strip()
