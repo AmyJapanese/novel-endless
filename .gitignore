@@ -4,3 +4,4 @@ novels
 
 # VSCodeの一時ファイルをignore（こっちは消しても大丈夫）
 tempCodeRunnerFile.py
+all-novels

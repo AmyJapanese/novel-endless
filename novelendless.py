@@ -109,7 +109,7 @@ if __name__ == "__main__":
     model = build_model(corpus, n=N)
     ask_mode = input("エンドレスモードで出力しますか？ (y/n): ").strip().lower() == 'y'
     if ask_mode:
-        endless_stream(model, n=N, delay=0.3)
+        endless_stream(model, n=N, delay=0.05)
     else:
         while True:
             ask_for = input("何回出力しますか？ (数字を入力): ").strip()
